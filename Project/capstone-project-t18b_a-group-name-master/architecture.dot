@@ -1,0 +1,46 @@
+graph {
+    concentrate=true;
+
+    subgraph cluster5 {
+        label = "MealMatch";
+        subgraph cluster0 {
+            label="backend";
+            0 [label="Microsoft Azure"];
+            9 [label="Apache"];
+            10 [label="Django app"];
+            0 -- 9;
+            9 -- 10;
+        }
+
+        subgraph cluster1 {
+            label="frontend";
+            1 [label="web app"];
+            3 [label="Vue.js"];
+            7 [label="Vuetify.js"];
+            8 [label="vue-rx"];
+        }
+
+        subgraph cluster2 {
+            label="db";
+            2 [label="SQLite"];
+        }
+    }
+
+    subgraph cluster3 {
+        label="users";
+        4 [label="explorer"];
+        5 [label="contributor"];
+    }
+
+    subgraph cluster4 {
+        label="APIs";
+        labeljust="l";
+        6 [label="spoonacular"];
+    }
+
+    2 -- 10;
+    0 -- 1;
+    1 -- 4;
+    1 -- 5;
+    10 -- 6;
+}

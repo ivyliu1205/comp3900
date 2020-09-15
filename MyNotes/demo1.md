@@ -22,11 +22,22 @@
 
 ## Django
 
-### Project
+### Pages
+
+- / == /explore  
+  - /login  
+  - /explore  
+    - /matchRecipes  
+  - /contribute  
+
 
 ### App
 
 - **models.py**: manipulations about databases
+
+### Setting
+
+- middleware 中间件：handle HTTP requests and response
 
 ## References
 

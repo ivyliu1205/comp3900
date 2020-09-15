@@ -1,0 +1,18 @@
+Week 1
+- Only 2 members in the group and we have to wait for extra members, thus no progess was made.
+
+Week 2
+Tue
+- Group of 4 is formed. 
+- Became the admin and set up Jira project for the group.
+Fri
+- Defined user stories for Recipe Contributors
+
+Week 3
+- In Tues meeting, I was appointed to be the front end developer, and responsible for the interface design.
+- For proposal
+    - Define User and Recipe Contributor's user stories
+    - Develop story boards (interface flow chart)
+    - Final formatting (Cross referencing and consistency format)
+
+
