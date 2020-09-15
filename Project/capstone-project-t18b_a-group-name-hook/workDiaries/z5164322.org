@@ -1,0 +1,19 @@
+* week 1 
++ group not formed
+
+* week 2 
++ group of 4 formed
++ discussed software for implementation
+
+* week 3
++ work on proposal
+
+* week 4
++ try to get spoonacular api working
+
+* week 5
++ define models
++ get recipes from spoonacular api
++ get suggested ingredients from spoonacular api
+* week 7
++ make models more detailed

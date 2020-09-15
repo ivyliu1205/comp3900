@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+</head>
+
+<body>
+    <h1>Recipes</h1>
+    {% if recipes %}
+    {% for recipe, link in recipes %}
+    <h2><a href="{{ link }}">{{ recipe.title }}</a></h2>
+    <!-- <h3>Missed Ingredients</h3>
+    <ul>
+        {% for ing in recipe.missedIngredients %}
+        <li>{{ ing.name }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Used Ingredients</h3>
+    <ul>
+        {% for ing in recipe.usedIngredients %}
+        <li>{{ ing.name }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Unused Ingredients</h3>
+    <ul>
+        {% for ing in recipe.unusedIngredients %}
+        <li>{{ ing.name }}</li>
+        {% endfor %}
+    </ul> -->
+    {% endfor %}
+    {% endif %}
+    {% if suggested_ingredients %}
+    <h1>Ingredient Suggestions</h1>
+    <ul>
+        {% for ing in suggested_ingredients %}
+        <li>{{ ing }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>
